@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakthivelsubbarayan/node-default-server.git"
+  },
+  "author": "Sakthivel Subbarayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakthivelsubbarayan/node-default-server/issues"
+  },
+  "homepage": "https://github.com/sakthivelsubbarayan/node-default-server#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.25",
+    "nodemailer": "^6.4.10",
+    "url": "^0.11.0"
+  }
+}
